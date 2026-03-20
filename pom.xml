@@ -26,6 +26,7 @@
                     </suiteXmlFiles>
 
                     <systemPropertyVariables>
+
                         <!--suppress UnresolvedMavenProperty -->
                         <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                     </systemPropertyVariables>
