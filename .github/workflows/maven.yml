@@ -24,7 +24,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     
-    - name: Execute Test Automation Framwwork
+    - name: Execute Test Automation Framework
       run: mvn test -DsuiteXmlFile=testng.xml -Denv=qa
 
     - name: Upload a Build Artifact
