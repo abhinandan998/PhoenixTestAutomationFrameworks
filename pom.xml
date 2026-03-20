@@ -24,6 +24,11 @@
                         <!--suppress UnresolvedMavenProperty -->
                         <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                     </suiteXmlFiles>
+
+                    <systemPropertyVariables>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
