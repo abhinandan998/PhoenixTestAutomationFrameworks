@@ -21,7 +21,7 @@ public class LoginAPITest {
 
 
         UserCredentials userCredentials = new UserCredentials("iamfd", "password");
-        given().
+        given(). 
                 baseUri(getProperty("BASE_URI"))
                 .and()
                 .contentType(ContentType.JSON)
